@@ -31,6 +31,7 @@ import { ExplorePage } from '@/planviry/pages/Explore';
 import { VendorDetail } from '@/planviry/pages/VendorDetail';
 import { ComposePage } from '@/planviry/pages/Compose';
 import { ConciergePage } from '@/planviry/pages/Concierge';
+import { DestinationNavigatorPage } from '@/planviry/pages/DestinationNavigator';
 
 function AppRoutes() {
   useEnsureHash();
@@ -58,6 +59,7 @@ function AppRoutes() {
           <Route path="/food-drink" element={<FoodDrinkPage />} />
           <Route path="/live-shows" element={<LiveShowsPage />} />
           <Route path="/travel" element={<TravelPage />} />
+          <Route path="/destination-navigator" element={<DestinationNavigatorPage />} />
           <Route path="/party" element={<PartyPage />} />
           <Route path="/spaces" element={<SpacesPage />} />
           <Route path="/vendors" element={<VendorsPage />} />

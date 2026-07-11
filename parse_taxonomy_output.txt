@@ -1,0 +1,28 @@
+﻿regions 8
+countries 166
+first 10 countries
+AFRICA | Algeria | 1
+AFRICA | Democratic Republic of Congo | 1
+AFRICA | Ghana | 1
+AFRICA | Malawi | 1
+AFRICA | Morocco | 48
+AFRICA | Nigeria | 1
+AFRICA | Senegal | 1
+AFRICA | Tanzania | 12
+AFRICA | Uganda | 1
+AFRICA | Mozambique | 3
+last 10 countries
+SOUTH AMERICA | Argentina | 18
+SOUTH AMERICA | Colombia | 30
+SOUTH AMERICA | Peru | 21
+SOUTH AMERICA | Bolivia | 9
+SOUTH AMERICA | Ecuador | 19
+SOUTH AMERICA | Brazil | 30
+SOUTH AMERICA | Uruguay | 4
+SOUTH AMERICA | Chile | 23
+SOUTH AMERICA | Paraguay | 1
+SOUTH AMERICA | Venezuela | 1
+sample entries
+{'region': 'AFRICA', 'country': 'Algeria', 'cities': [{'name': 'Algiers', 'url': 'https://www.lonelyplanet.com/destinations/algeria/algiers'}]}
+{'region': 'AFRICA', 'country': 'Democratic Republic of Congo', 'cities': [{'name': 'Kinshasa', 'url': 'https://www.lonelyplanet.com/destinations/democratic-republic-of-congo/kinshasa'}]}
+{'region': 'AFRICA', 'country': 'Ghana', 'cities': [{'name': 'Accra', 'url': 'https://www.lonelyplanet.com/destinations/ghana/accra'}]}

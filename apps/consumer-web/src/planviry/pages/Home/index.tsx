@@ -54,7 +54,7 @@ const TILES = [
 
 const DIRECTORY = [
   { heading: "By Occasion", links: ["Weddings", "Retreats", "Birthdays", "Reunions", "Conferences", "Bachelor / Bachelorette"] },
-  { heading: "By Service", links: ["Venues", "Partners", "Travel", "Food & Drink", "Live Shows", "Concierge"] },
+  { heading: "By Service", links: ["Venues", "Partners", "Destinations", "Travel", "Food & Drink", "Live Shows", "Concierge"] },
   { heading: "By Region", links: ["Europe", "North America", "Asia", "Middle East", "Latin America", "Africa"] },
 ];
 
@@ -667,6 +667,9 @@ function SiteHeader() {
             <button onClick={() => handleNav('/travel', 'travel')} className="text-sm font-medium text-neutral-500 hover:text-neutral-900 transition-colors cursor-pointer bg-transparent border-none">
               Travel
             </button>
+            <button onClick={() => handleNav('/destination-navigator', 'travel')} className="text-sm font-medium text-neutral-500 hover:text-neutral-900 transition-colors cursor-pointer bg-transparent border-none">
+              Destinations
+            </button>
             <button onClick={() => handleNav('/vendors', 'vendors')} className="text-sm font-medium text-neutral-500 hover:text-neutral-900 transition-colors cursor-pointer bg-transparent border-none">
               Partners
             </button>
@@ -709,7 +712,7 @@ function SiteHeader() {
                               "Concierge": "services"
                             };
                             const targetCat = catMap[link] || "vendors";
-                            const targetPath = link === "Venues" ? "/spaces" : link === "Travel" ? "/travel" : link === "Food & Drink" ? "/food-drink" : link === "Live Shows" ? "/live-shows" : "/explore";
+                            const targetPath = link === "Venues" ? "/spaces" : link === "Travel" ? "/destination-navigator" : link === "Destinations" ? "/destination-navigator" : link === "Food & Drink" ? "/food-drink" : link === "Live Shows" ? "/live-shows" : "/explore";
                             return (
                               <li key={link}>
                                 <button

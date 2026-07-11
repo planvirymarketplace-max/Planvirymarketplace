@@ -1,0 +1,1441 @@
+{
+  "states": [
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "counties": [
+        "Maricopa",
+        "Pima",
+        "Pinal",
+        "Yavapai",
+        "Coconino",
+        "Mohave",
+        "Navajo",
+        "Apache",
+        "Gila",
+        "Graham",
+        "Greenlee",
+        "La Paz",
+        "Santa Cruz",
+        "Yuma"
+      ],
+      "majorCities": [
+        "Phoenix",
+        "Tucson",
+        "Mesa",
+        "Chandler",
+        "Glendale",
+        "Scottsdale",
+        "Gilbert",
+        "Tempe",
+        "Peoria",
+        "Surprise"
+      ],
+      "venues": [
+        {
+          "name": "State Farm Stadium",
+          "city": "Glendale",
+          "capacity": 63400,
+          "teams": ["Arizona Cardinals"]
+        },
+        {
+          "name": "Chase Field",
+          "city": "Phoenix",
+          "capacity": 48686,
+          "teams": ["Arizona Diamondbacks"]
+        },
+        {
+          "name": "Footprint Center",
+          "city": "Phoenix",
+          "capacity": 17071,
+          "teams": ["Phoenix Suns"]
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "counties": [
+        "Los Angeles",
+        "San Diego",
+        "Orange",
+        "Riverside",
+        "San Bernardino",
+        "Santa Clara",
+        "Alameda",
+        "Sacramento",
+        "Contra Costa",
+        "San Francisco",
+        "Fresno",
+        "Kern",
+        "San Mateo",
+        "Ventura",
+        "San Joaquin"
+      ],
+      "majorCities": [
+        "Los Angeles",
+        "San Diego",
+        "San Jose",
+        "San Francisco",
+        "Fresno",
+        "Sacramento",
+        "Long Beach",
+        "Oakland",
+        "Bakersfield",
+        "Anaheim"
+      ],
+      "venues": [
+        {
+          "name": "SoFi Stadium",
+          "city": "Inglewood",
+          "capacity": 70000,
+          "teams": ["Los Angeles Chargers", "Los Angeles Rams"]
+        },
+        {
+          "name": "Crypto.com Arena",
+          "city": "Los Angeles",
+          "capacity": 18997,
+          "teams": ["Los Angeles Lakers", "Los Angeles Kings"]
+        },
+        {
+          "name": "Dodger Stadium",
+          "city": "Los Angeles",
+          "capacity": 56000,
+          "teams": ["Los Angeles Dodgers"]
+        },
+        {
+          "name": "Chase Center",
+          "city": "San Francisco",
+          "capacity": 18064,
+          "teams": ["Golden State Warriors"]
+        },
+        {
+          "name": "Levi's Stadium",
+          "city": "Santa Clara",
+          "capacity": 68500,
+          "teams": ["San Francisco 49ers"]
+        },
+        {
+          "name": "Intuit Dome",
+          "city": "Inglewood",
+          "capacity": 18000,
+          "teams": ["LA Clippers"]
+        }
+      ]
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "counties": [
+        "Harris",
+        "Dallas",
+        "Tarrant",
+        "Bexar",
+        "Travis",
+        "Collin",
+        "Denton",
+        "Fort Bend",
+        "Montgomery",
+        "Williamson"
+      ],
+      "majorCities": [
+        "Houston",
+        "San Antonio",
+        "Dallas",
+        "Austin",
+        "Fort Worth",
+        "El Paso",
+        "Arlington",
+        "Corpus Christi",
+        "Plano",
+        "Laredo"
+      ],
+      "venues": [
+        {
+          "name": "AT&T Stadium",
+          "city": "Arlington",
+          "capacity": 80000,
+          "teams": ["Dallas Cowboys"]
+        },
+        {
+          "name": "NRG Stadium",
+          "city": "Houston",
+          "capacity": 72220,
+          "teams": ["Houston Texans"]
+        },
+        {
+          "name": "Globe Life Field",
+          "city": "Arlington",
+          "capacity": 40300,
+          "teams": ["Texas Rangers"]
+        },
+        {
+          "name": "American Airlines Center",
+          "city": "Dallas",
+          "capacity": 19200,
+          "teams": ["Dallas Mavericks", "Dallas Stars"]
+        },
+        {
+          "name": "Toyota Center",
+          "city": "Houston",
+          "capacity": 18055,
+          "teams": ["Houston Rockets"]
+        }
+      ]
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "counties": [
+        "Miami-Dade",
+        "Broward",
+        "Palm Beach",
+        "Hillsborough",
+        "Orange",
+        "Duval",
+        "Pinellas",
+        "Lee",
+        "Polk",
+        "Brevard"
+      ],
+      "majorCities": [
+        "Jacksonville",
+        "Miami",
+        "Tampa",
+        "Orlando",
+        "St. Petersburg",
+        "Hialeah",
+        "Tallahassee",
+        "Fort Lauderdale",
+        "Port St. Lucie",
+        "Cape Coral"
+      ],
+      "venues": [
+        {
+          "name": "Hard Rock Stadium",
+          "city": "Miami Gardens",
+          "capacity": 65326,
+          "teams": ["Miami Dolphins"]
+        },
+        {
+          "name": "TIAA Bank Field",
+          "city": "Jacksonville",
+          "capacity": 69132,
+          "teams": ["Jacksonville Jaguars"]
+        },
+        {
+          "name": "Raymond James Stadium",
+          "city": "Tampa",
+          "capacity": 65890,
+          "teams": ["Tampa Bay Buccaneers"]
+        },
+        {
+          "name": "Kaseya Center",
+          "city": "Miami",
+          "capacity": 19600,
+          "teams": ["Miami Heat"]
+        },
+        {
+          "name": "Amalie Arena",
+          "city": "Tampa",
+          "capacity": 19204,
+          "teams": ["Tampa Bay Lightning"]
+        }
+      ]
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "counties": [
+        "Kings",
+        "Queens",
+        "New York",
+        "Suffolk",
+        "Bronx",
+        "Nassau",
+        "Westchester",
+        "Erie",
+        "Monroe",
+        "Richmond"
+      ],
+      "majorCities": [
+        "New York City",
+        "Buffalo",
+        "Rochester",
+        "Yonkers",
+        "Syracuse",
+        "Albany",
+        "New Rochelle",
+        "Mount Vernon",
+        "Schenectady",
+        "Utica"
+      ],
+      "venues": [
+        {
+          "name": "MetLife Stadium",
+          "city": "East Rutherford",
+          "capacity": 82500,
+          "teams": ["New York Giants", "New York Jets"]
+        },
+        {
+          "name": "Madison Square Garden",
+          "city": "New York",
+          "capacity": 19812,
+          "teams": ["New York Knicks", "New York Rangers"]
+        },
+        {
+          "name": "Yankee Stadium",
+          "city": "Bronx",
+          "capacity": 46307,
+          "teams": ["New York Yankees"]
+        },
+        {
+          "name": "Citi Field",
+          "city": "Flushing",
+          "capacity": 41922,
+          "teams": ["New York Mets"]
+        },
+        {
+          "name": "Barclays Center",
+          "city": "Brooklyn",
+          "capacity": 17732,
+          "teams": ["Brooklyn Nets"]
+        }
+      ]
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "counties": [
+        "Cook",
+        "DuPage",
+        "Lake",
+        "Will",
+        "Kane",
+        "McHenry",
+        "Winnebago",
+        "Madison",
+        "St. Clair",
+        "Champaign"
+      ],
+      "majorCities": [
+        "Chicago",
+        "Aurora",
+        "Naperville",
+        "Joliet",
+        "Rockford",
+        "Springfield",
+        "Peoria",
+        "Elgin",
+        "Waukegan",
+        "Cicero"
+      ],
+      "venues": [
+        {
+          "name": "Soldier Field",
+          "city": "Chicago",
+          "capacity": 61500,
+          "teams": ["Chicago Bears"]
+        },
+        {
+          "name": "United Center",
+          "city": "Chicago",
+          "capacity": 20917,
+          "teams": ["Chicago Bulls", "Chicago Blackhawks"]
+        },
+        {
+          "name": "Wrigley Field",
+          "city": "Chicago",
+          "capacity": 41649,
+          "teams": ["Chicago Cubs"]
+        },
+        {
+          "name": "Rate Field",
+          "city": "Chicago",
+          "capacity": 40615,
+          "teams": ["Chicago White Sox"]
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "counties": [
+        "Philadelphia",
+        "Allegheny",
+        "Montgomery",
+        "Bucks",
+        "Delaware",
+        "Chester",
+        "Lancaster",
+        "York",
+        "Berks",
+        "Westmoreland"
+      ],
+      "majorCities": [
+        "Philadelphia",
+        "Pittsburgh",
+        "Allentown",
+        "Erie",
+        "Reading",
+        "Scranton",
+        "Bethlehem",
+        "Lancaster",
+        "Harrisburg",
+        "Altoona"
+      ],
+      "venues": [
+        {
+          "name": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "capacity": 69596,
+          "teams": ["Philadelphia Eagles"]
+        },
+        {
+          "name": "Citizens Bank Park",
+          "city": "Philadelphia",
+          "capacity": 42901,
+          "teams": ["Philadelphia Phillies"]
+        },
+        {
+          "name": "Wells Fargo Center",
+          "city": "Philadelphia",
+          "capacity": 20000,
+          "teams": ["Philadelphia 76ers", "Philadelphia Flyers"]
+        },
+        {
+          "name": "Acrisure Stadium",
+          "city": "Pittsburgh",
+          "capacity": 68400,
+          "teams": ["Pittsburgh Steelers"]
+        },
+        {
+          "name": "PPG Paints Arena",
+          "city": "Pittsburgh",
+          "capacity": 19600,
+          "teams": ["Pittsburgh Penguins"]
+        }
+      ]
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "counties": [
+        "Cuyahoga",
+        "Franklin",
+        "Hamilton",
+        "Summit",
+        "Montgomery",
+        "Lucas",
+        "Stark",
+        "Lorain",
+        "Butler",
+        "Mahoning"
+      ],
+      "majorCities": [
+        "Columbus",
+        "Cleveland",
+        "Cincinnati",
+        "Toledo",
+        "Akron",
+        "Dayton",
+        "Parma",
+        "Canton",
+        "Youngstown",
+        "Lorain"
+      ],
+      "venues": [
+        {
+          "name": "FirstEnergy Stadium",
+          "city": "Cleveland",
+          "capacity": 67895,
+          "teams": ["Cleveland Browns"]
+        },
+        {
+          "name": "Paycor Stadium",
+          "city": "Cincinnati",
+          "capacity": 65515,
+          "teams": ["Cincinnati Bengals"]
+        },
+        {
+          "name": "Progressive Field",
+          "city": "Cleveland",
+          "capacity": 34730,
+          "teams": ["Cleveland Guardians"]
+        },
+        {
+          "name": "Great American Ball Park",
+          "city": "Cincinnati",
+          "capacity": 42283,
+          "teams": ["Cincinnati Reds"]
+        },
+        {
+          "name": "Rocket Mortgage FieldHouse",
+          "city": "Cleveland",
+          "capacity": 19432,
+          "teams": ["Cleveland Cavaliers"]
+        }
+      ]
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "counties": [
+        "Wayne",
+        "Oakland",
+        "Macomb",
+        "Kent",
+        "Genesee",
+        "Washtenaw",
+        "Ingham",
+        "Ottawa",
+        "Lansing",
+        "Saginaw"
+      ],
+      "majorCities": [
+        "Detroit",
+        "Grand Rapids",
+        "Warren",
+        "Sterling Heights",
+        "Lansing",
+        "Ann Arbor",
+        "Flint",
+        "Dearborn",
+        "Livonia",
+        "Troy"
+      ],
+      "venues": [
+        {
+          "name": "Ford Field",
+          "city": "Detroit",
+          "capacity": 65000,
+          "teams": ["Detroit Lions"]
+        },
+        {
+          "name": "Comerica Park",
+          "city": "Detroit",
+          "capacity": 41783,
+          "teams": ["Detroit Tigers"]
+        },
+        {
+          "name": "Little Caesars Arena",
+          "city": "Detroit",
+          "capacity": 20332,
+          "teams": ["Detroit Pistons", "Detroit Red Wings"]
+        }
+      ]
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "counties": [
+        "Fulton",
+        "Gwinnett",
+        "Cobb",
+        "DeKalb",
+        "Clayton",
+        "Chatham",
+        "Forsyth",
+        "Henry",
+        "Hall",
+        "Gwinnett"
+      ],
+      "majorCities": [
+        "Atlanta",
+        "Augusta",
+        "Columbus",
+        "Savannah",
+        "Athens",
+        "Sandy Springs",
+        "Roswell",
+        "Macon",
+        "Johns Creek",
+        "Alpharetta"
+      ],
+      "venues": [
+        {
+          "name": "Mercedes-Benz Stadium",
+          "city": "Atlanta",
+          "capacity": 71000,
+          "teams": ["Atlanta Falcons"]
+        },
+        {
+          "name": "Truist Park",
+          "city": "Atlanta",
+          "capacity": 41084,
+          "teams": ["Atlanta Braves"]
+        },
+        {
+          "name": "State Farm Arena",
+          "city": "Atlanta",
+          "capacity": 17044,
+          "teams": ["Atlanta Hawks"]
+        }
+      ]
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "counties": [
+        "Wake",
+        "Mecklenburg",
+        "Guilford",
+        "Forsyth",
+        "Cumberland",
+        "Durham",
+        "Buncombe",
+        "Union",
+        "New Hanover",
+        "Gaston"
+      ],
+      "majorCities": [
+        "Charlotte",
+        "Raleigh",
+        "Greensboro",
+        "Durham",
+        "Winston-Salem",
+        "Fayetteville",
+        "Cary",
+        "Wilmington",
+        "High Point",
+        "Concord"
+      ],
+      "venues": [
+        {
+          "name": "Bank of America Stadium",
+          "city": "Charlotte",
+          "capacity": 75523,
+          "teams": ["Carolina Panthers"]
+        },
+        {
+          "name": "Spectrum Center",
+          "city": "Charlotte",
+          "capacity": 19077,
+          "teams": ["Charlotte Hornets"]
+        },
+        {
+          "name": "PNC Arena",
+          "city": "Raleigh",
+          "capacity": 18700,
+          "teams": ["Carolina Hurricanes"]
+        }
+      ]
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "counties": [
+        "Denver",
+        "El Paso",
+        "Arapahoe",
+        "Jefferson",
+        "Adams",
+        "Larimer",
+        "Douglas",
+        "Boulder",
+        "Weld",
+        "Pueblo"
+      ],
+      "majorCities": [
+        "Denver",
+        "Colorado Springs",
+        "Aurora",
+        "Fort Collins",
+        "Lakewood",
+        "Thornton",
+        "Arvada",
+        "Westminster",
+        "Pueblo",
+        "Greeley"
+      ],
+      "venues": [
+        {
+          "name": "Empower Field at Mile High",
+          "city": "Denver",
+          "capacity": 76125,
+          "teams": ["Denver Broncos"]
+        },
+        {
+          "name": "Coors Field",
+          "city": "Denver",
+          "capacity": 50144,
+          "teams": ["Colorado Rockies"]
+        },
+        {
+          "name": "Ball Arena",
+          "city": "Denver",
+          "capacity": 19520,
+          "teams": ["Denver Nuggets", "Colorado Avalanche"]
+        }
+      ]
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "counties": [
+        "King",
+        "Pierce",
+        "Snohomish",
+        "Spokane",
+        "Clark",
+        "Thurston",
+        "Kitsap",
+        "Yakima",
+        "Whatcom",
+        "Benton"
+      ],
+      "majorCities": [
+        "Seattle",
+        "Spokane",
+        "Tacoma",
+        "Vancouver",
+        "Bellevue",
+        "Kent",
+        "Everett",
+        "Renton",
+        "Spokane Valley",
+        "Federal Way"
+      ],
+      "venues": [
+        {
+          "name": "Lumen Field",
+          "city": "Seattle",
+          "capacity": 69000,
+          "teams": ["Seattle Seahawks"]
+        },
+        {
+          "name": "T-Mobile Park",
+          "city": "Seattle",
+          "capacity": 47929,
+          "teams": ["Seattle Mariners"]
+        },
+        {
+          "name": "Climate Pledge Arena",
+          "city": "Seattle",
+          "capacity": 17400,
+          "teams": ["Seattle Kraken"]
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "counties": [
+        "St. Louis",
+        "Jackson",
+        "St. Charles",
+        "Greene",
+        "Clay",
+        "Platte",
+        "Boone",
+        "Jefferson",
+        "Franklin",
+        "St. Francois"
+      ],
+      "majorCities": [
+        "Kansas City",
+        "St. Louis",
+        "Springfield",
+        "Independence",
+        "Columbia",
+        "Lee's Summit",
+        "O'Fallon",
+        "St. Joseph",
+        "St. Charles",
+        "St. Peters"
+      ],
+      "venues": [
+        {
+          "name": "Arrowhead Stadium",
+          "city": "Kansas City",
+          "capacity": 76416,
+          "teams": ["Kansas City Chiefs"]
+        },
+        {
+          "name": "Kauffman Stadium",
+          "city": "Kansas City",
+          "capacity": 37903,
+          "teams": ["Kansas City Royals"]
+        },
+        {
+          "name": "Busch Stadium",
+          "city": "St. Louis",
+          "capacity": 45494,
+          "teams": ["St. Louis Cardinals"]
+        },
+        {
+          "name": "Enterprise Center",
+          "city": "St. Louis",
+          "capacity": 18696,
+          "teams": ["St. Louis Blues"]
+        }
+      ]
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "counties": [
+        "Shelby",
+        "Davidson",
+        "Knox",
+        "Hamilton",
+        "Rutherford",
+        "Williamson",
+        "Sumner",
+        "Montgomery",
+        "Wilson",
+        "Madison"
+      ],
+      "majorCities": [
+        "Nashville",
+        "Memphis",
+        "Knoxville",
+        "Chattanooga",
+        "Clarksville",
+        "Murfreesboro",
+        "Jackson",
+        "Johnson City",
+        "Franklin",
+        "Bartlett"
+      ],
+      "venues": [
+        {
+          "name": "Nissan Stadium",
+          "city": "Nashville",
+          "capacity": 69143,
+          "teams": ["Tennessee Titans"]
+        },
+        {
+          "name": "Bridgestone Arena",
+          "city": "Nashville",
+          "capacity": 19000,
+          "teams": ["Nashville Predators"]
+        },
+        {
+          "name": "FedExForum",
+          "city": "Memphis",
+          "capacity": 17794,
+          "teams": ["Memphis Grizzlies"]
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "counties": [
+        "Middlesex",
+        "Worcester",
+        "Suffolk",
+        "Essex",
+        "Norfolk",
+        "Plymouth",
+        "Bristol",
+        "Hampden",
+        "Hampshire",
+        "Berkshire"
+      ],
+      "majorCities": [
+        "Boston",
+        "Worcester",
+        "Springfield",
+        "Cambridge",
+        "Lowell",
+        "Brookline",
+        "Quincy",
+        "New Bedford",
+        "Lynn",
+        "Fall River"
+      ],
+      "venues": [
+        {
+          "name": "Gillette Stadium",
+          "city": "Foxborough",
+          "capacity": 66829,
+          "teams": ["New England Patriots"]
+        },
+        {
+          "name": "TD Garden",
+          "city": "Boston",
+          "capacity": 18624,
+          "teams": ["Boston Celtics", "Boston Bruins"]
+        },
+        {
+          "name": "Fenway Park",
+          "city": "Boston",
+          "capacity": 37551,
+          "teams": ["Boston Red Sox"]
+        }
+      ]
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "counties": [
+        "Montgomery",
+        "Prince George's",
+        "Baltimore",
+        "Anne Arundel",
+        "Howard",
+        "Frederick",
+        "Harford",
+        "Carroll",
+        "Baltimore City",
+        "Charles"
+      ],
+      "majorCities": [
+        "Baltimore",
+        "Columbia",
+        "Germantown",
+        "Silver Spring",
+        "Waldorf",
+        "Frederick",
+        "Rockville",
+        "Gaithersburg",
+        " Bowie",
+        "Hagerstown"
+      ],
+      "venues": [
+        {
+          "name": "M&T Bank Stadium",
+          "city": "Baltimore",
+          "capacity": 71008,
+          "teams": ["Baltimore Ravens"]
+        },
+        {
+          "name": "Oriole Park at Camden Yards",
+          "city": "Baltimore",
+          "capacity": 45971,
+          "teams": ["Baltimore Orioles"]
+        },
+        {
+          "name": "FedEx Field",
+          "city": "Landover",
+          "capacity": 67717,
+          "teams": ["Washington Commanders"]
+        },
+        {
+          "name": "Capital One Arena",
+          "city": "Washington",
+          "capacity": 20333,
+          "teams": ["Washington Wizards", "Washington Capitals"]
+        }
+      ]
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "counties": [
+        "Milwaukee",
+        "Dane",
+        "Waukesha",
+        "Brown",
+        "Racine",
+        "Kenosha",
+        "Rock",
+        "Outagamie",
+        "Washington",
+        "Sheboygan"
+      ],
+      "majorCities": [
+        "Milwaukee",
+        "Madison",
+        "Green Bay",
+        "Kenosha",
+        "Racine",
+        "Appleton",
+        "Waukesha",
+        "Eau Claire",
+        "Oshkosh",
+        "Janesville"
+      ],
+      "venues": [
+        {
+          "name": "Lambeau Field",
+          "city": "Green Bay",
+          "capacity": 81441,
+          "teams": ["Green Bay Packers"]
+        },
+        {
+          "name": "American Family Field",
+          "city": "Milwaukee",
+          "capacity": 41900,
+          "teams": ["Milwaukee Brewers"]
+        },
+        {
+          "name": "Fiserv Forum",
+          "city": "Milwaukee",
+          "capacity": 17341,
+          "teams": ["Milwaukee Bucks"]
+        }
+      ]
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "counties": [
+        "Hennepin",
+        "Ramsey",
+        "Anoka",
+        "Dakota",
+        "Washington",
+        "Scott",
+        "Carver",
+        "St. Louis",
+        "Olmsted",
+        "Stearns"
+      ],
+      "majorCities": [
+        "Minneapolis",
+        "St. Paul",
+        "Rochester",
+        "Duluth",
+        "Bloomington",
+        "Brooklyn Park",
+        "Plymouth",
+        "Maple Grove",
+        "Woodbury",
+        "St. Cloud"
+      ],
+      "venues": [
+        {
+          "name": "U.S. Bank Stadium",
+          "city": "Minneapolis",
+          "capacity": 66655,
+          "teams": ["Minnesota Vikings"]
+        },
+        {
+          "name": "Target Field",
+          "city": "Minneapolis",
+          "capacity": 38544,
+          "teams": ["Minnesota Twins"]
+        },
+        {
+          "name": "Target Center",
+          "city": "Minneapolis",
+          "capacity": 18024,
+          "teams": ["Minnesota Timberwolves"]
+        },
+        {
+          "name": "Xcel Energy Center",
+          "city": "St. Paul",
+          "capacity": 18064,
+          "teams": ["Minnesota Wild"]
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "counties": [
+        "Marion",
+        "Lake",
+        "Allen",
+        "Hamilton",
+        "St. Joseph",
+        "Vanderburgh",
+        "Tippecanoe",
+        "Johnson",
+        "Hendricks",
+        "Porter"
+      ],
+      "majorCities": [
+        "Indianapolis",
+        "Fort Wayne",
+        "Evansville",
+        "South Bend",
+        "Carmel",
+        "Fishers",
+        "Bloomington",
+        "Noblesville",
+        "Lafayette",
+        "Greenwood"
+      ],
+      "venues": [
+        {
+          "name": "Lucas Oil Stadium",
+          "city": "Indianapolis",
+          "capacity": 67000,
+          "teams": ["Indianapolis Colts"]
+        },
+        {
+          "name": "Gainbridge Fieldhouse",
+          "city": "Indianapolis",
+          "capacity": 17923,
+          "teams": ["Indiana Pacers"]
+        }
+      ]
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "counties": [
+        "Clark",
+        "Washoe",
+        "Lyon",
+        "Nye",
+        "Elko",
+        "Churchill",
+        "Humboldt",
+        "Pershing",
+        "Douglas",
+        "Storey"
+      ],
+      "majorCities": [
+        "Las Vegas",
+        "Henderson",
+        "Reno",
+        "North Las Vegas",
+        "Sparks",
+        "Carson City",
+        "Elko",
+        "Boulder City",
+        "Mesquite",
+        "Fernley"
+      ],
+      "venues": [
+        {
+          "name": "Allegiant Stadium",
+          "city": "Las Vegas",
+          "capacity": 65000,
+          "teams": ["Las Vegas Raiders"]
+        },
+        {
+          "name": "T-Mobile Arena",
+          "city": "Las Vegas",
+          "capacity": 20000,
+          "teams": ["Vegas Golden Knights"]
+        }
+      ]
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "counties": [
+        "Multnomah",
+        "Washington",
+        "Clackamas",
+        "Lane",
+        "Marion",
+        "Jackson",
+        "Deschutes",
+        "Linn",
+        "Douglas",
+        "Yamhill"
+      ],
+      "majorCities": [
+        "Portland",
+        "Eugene",
+        "Salem",
+        "Gresham",
+        "Hillsboro",
+        "Beaverton",
+        "Bend",
+        "Medford",
+        "Springfield",
+        "Corvallis"
+      ],
+      "venues": [
+        {
+          "name": "Moda Center",
+          "city": "Portland",
+          "capacity": 19411,
+          "teams": ["Portland Trail Blazers"]
+        }
+      ]
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "counties": [
+        "Salt Lake",
+        "Utah",
+        "Davis",
+        "Weber",
+        "Washington",
+        "Cache",
+        "Box Elder",
+        "Tooele",
+        "Iron",
+        "San Juan"
+      ],
+      "majorCities": [
+        "Salt Lake City",
+        "West Valley City",
+        "Provo",
+        "West Jordan",
+        "Orem",
+        "Sandy",
+        "Ogden",
+        "St. George",
+        "Layton",
+        "Taylorsville"
+      ],
+      "venues": [
+        {
+          "name": "Delta Center",
+          "city": "Salt Lake City",
+          "capacity": 18306,
+          "teams": ["Utah Jazz"]
+        }
+      ]
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "counties": [
+        "Oklahoma",
+        "Tulsa",
+        "Cleveland",
+        "Canadian",
+        "Comanche",
+        "Pottawatomie",
+        "Payne",
+        "Rogers",
+        "Muskogee",
+        "Creek"
+      ],
+      "majorCities": [
+        "Oklahoma City",
+        "Tulsa",
+        "Norman",
+        "Broken Arrow",
+        "Edmond",
+        "Lawton",
+        "Moore",
+        "Midwest City",
+        "Enid",
+        "Stillwater"
+      ],
+      "venues": [
+        {
+          "name": "Paycom Center",
+          "city": "Oklahoma City",
+          "capacity": 18203,
+          "teams": ["Oklahoma City Thunder"]
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "counties": [
+        "East Baton Rouge",
+        "Jefferson",
+        "Orleans",
+        "Caddo",
+        "St. Tammany",
+        "Lafayette",
+        "Calcasieu",
+        "Ouachita",
+        "St. John the Baptist",
+        "Tangipahoa"
+      ],
+      "majorCities": [
+        "New Orleans",
+        "Baton Rouge",
+        "Shreveport",
+        "Metairie",
+        "Lafayette",
+        "Lake Charles",
+        "Kenner",
+        "Bossier City",
+        "Monroe",
+        "Alexandria"
+      ],
+      "venues": [
+        {
+          "name": "Caesars Superdome",
+          "city": "New Orleans",
+          "capacity": 73208,
+          "teams": ["New Orleans Saints"]
+        },
+        {
+          "name": "Smoothie King Center",
+          "city": "New Orleans",
+          "capacity": 16867,
+          "teams": ["New Orleans Pelicans"]
+        }
+      ]
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "counties": [
+        "Greenville",
+        "Richland",
+        "Charleston",
+        "Spartanburg",
+        "Anderson",
+        "Horry",
+        "Lexington",
+        "York",
+        "Berkeley",
+        "Dorchester"
+      ],
+      "majorCities": [
+        "Charleston",
+        "Columbia",
+        "North Charleston",
+        "Mount Pleasant",
+        "Rock Hill",
+        "Greenville",
+        "Summerville",
+        "Hilton Head Island",
+        "Spartanburg",
+        "Florence"
+      ],
+      "venues": [
+        {
+          "name": "Kia Center",
+          "city": "Orlando",
+          "capacity": 18846,
+          "teams": ["Orlando Magic"]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "concerts",
+      "name": "Concerts",
+      "subcategories": [
+        "Rock & Alternative",
+        "Hip-Hop & R&B",
+        "Country",
+        "Pop",
+        "Latin",
+        "Electronic",
+        "Jazz & Blues",
+        "Classical"
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "subcategories": [
+        "NFL",
+        "NBA",
+        "MLB",
+        "NHL",
+        "MLS",
+        "College Sports",
+        "Motorsports",
+        "Rec Leagues",
+        "Marathons & 5Ks"
+      ]
+    },
+    {
+      "id": "arts-theater-comedy",
+      "name": "Arts, Theater & Comedy",
+      "subcategories": [
+        "Broadway & Musicals",
+        "Plays",
+        "Dance & Ballet",
+        "Opera",
+        "Comedy Standup",
+        "Magic & Circus",
+        "Family Theater"
+      ]
+    },
+    {
+      "id": "festivals",
+      "name": "Festivals, Fairs & Expos",
+      "subcategories": [
+        "Music Festivals",
+        "Cultural Festivals",
+        "County & State Fairs",
+        "Comic-Cons",
+        "Trade Expos",
+        "Seasonal Events"
+      ]
+    },
+    {
+      "id": "classes",
+      "name": "Classes & Workshops",
+      "subcategories": [
+        "Cooking",
+        "Art & Pottery",
+        "Dance",
+        "Photography",
+        "Coding",
+        "Fitness",
+        "Language",
+        "Music Lessons"
+      ]
+    },
+    {
+      "id": "community",
+      "name": "Community & Culture",
+      "subcategories": [
+        "Block Parties",
+        "Heritage Festivals",
+        "Book Clubs",
+        "LGBTQ+",
+        "Neighborhood Meetups",
+        "Volunteering"
+      ]
+    }
+  ],
+  "sportsLeagues": {
+    "NFL": {
+      "conferences": {
+        "AFC": {
+          "divisions": {
+            "East": ["Buffalo Bills", "Miami Dolphins", "New England Patriots", "New York Jets"],
+            "North": ["Baltimore Ravens", "Cincinnati Bengals", "Cleveland Browns", "Pittsburgh Steelers"],
+            "South": ["Houston Texans", "Indianapolis Colts", "Jacksonville Jaguars", "Tennessee Titans"],
+            "West": ["Denver Broncos", "Kansas City Chiefs", "Las Vegas Raiders", "Los Angeles Chargers"]
+          }
+        },
+        "NFC": {
+          "divisions": {
+            "East": ["Dallas Cowboys", "New York Giants", "Philadelphia Eagles", "Washington Commanders"],
+            "North": ["Chicago Bears", "Detroit Lions", "Green Bay Packers", "Minnesota Vikings"],
+            "South": ["Atlanta Falcons", "Carolina Panthers", "New Orleans Saints", "Tampa Bay Buccaneers"],
+            "West": ["Arizona Cardinals", "Los Angeles Rams", "San Francisco 49ers", "Seattle Seahawks"]
+          }
+        }
+      }
+    },
+    "NBA": {
+      "conferences": {
+        "Eastern": {
+          "Atlantic": ["Boston Celtics", "Brooklyn Nets", "New York Knicks", "Philadelphia 76ers", "Toronto Raptors"],
+          "Central": ["Chicago Bulls", "Cleveland Cavaliers", "Detroit Pistons", "Indiana Pacers", "Milwaukee Bucks"],
+          "Southeast": ["Atlanta Hawks", "Charlotte Hornets", "Miami Heat", "Orlando Magic", "Washington Wizards"]
+        },
+        "Western": {
+          "Northwest": ["Denver Nuggets", "Minnesota Timberwolves", "Oklahoma City Thunder", "Portland Trail Blazers", "Utah Jazz"],
+          "Pacific": ["Golden State Warriors", "LA Clippers", "Los Angeles Lakers", "Phoenix Suns", "Sacramento Kings"],
+          "Southwest": ["Dallas Mavericks", "Houston Rockets", "Memphis Grizzlies", "New Orleans Pelicans", "San Antonio Spurs"]
+        }
+      }
+    },
+    "MLB": {
+      "leagues": {
+        "American": {
+          "East": ["Baltimore Orioles", "Boston Red Sox", "New York Yankees", "Tampa Bay Rays", "Toronto Blue Jays"],
+          "Central": ["Chicago White Sox", "Cleveland Guardians", "Detroit Tigers", "Kansas City Royals", "Minnesota Twins"],
+          "West": ["Houston Astros", "Los Angeles Angels", "Oakland Athletics", "Seattle Mariners", "Texas Rangers"]
+        },
+        "National": {
+          "East": ["Atlanta Braves", "Miami Marlins", "New York Mets", "Philadelphia Phillies", "Washington Nationals"],
+          "Central": ["Chicago Cubs", "Cincinnati Reds", "Milwaukee Brewers", "Pittsburgh Pirates", "St. Louis Cardinals"],
+          "West": ["Arizona Diamondbacks", "Colorado Rockies", "Los Angeles Dodgers", "San Diego Padres", "San Francisco Giants"]
+        }
+      }
+    },
+    "NHL": {
+      "conferences": {
+        "Eastern": {
+          "Atlantic": ["Boston Bruins", "Buffalo Sabres", "Detroit Red Wings", "Florida Panthers", "Montreal Canadiens", "Ottawa Senators", "Tampa Bay Lightning", "Toronto Maple Leafs"],
+          "Metropolitan": ["Carolina Hurricanes", "Columbus Blue Jackets", "New Jersey Devils", "New York Islanders", "New York Rangers", "Philadelphia Flyers", "Pittsburgh Penguins", "Washington Capitals"]
+        },
+        "Western": {
+          "Central": ["Chicago Blackhawks", "Colorado Avalanche", "Dallas Stars", "Minnesota Wild", "Nashville Predators", "St. Louis Blues", "Utah Mammoth", "Winnipeg Jets"],
+          "Pacific": ["Anaheim Ducks", "Calgary Flames", "Edmonton Oilers", "Los Angeles Kings", "San Jose Sharks", "Seattle Kraken", "Vancouver Canucks", "Vegas Golden Knights"]
+        }
+      }
+    }
+  }
+}

@@ -170,7 +170,7 @@ export const getVendorDetails = (item: CartItem) => {
 
 const DIRECTORY_DATA = [
   { heading: "By Occasion", links: ["Weddings", "Retreats", "Birthdays", "Reunions", "Conferences", "Bachelor / Bachelorette"] },
-  { heading: "By Service", links: ["Venues", "Partners", "Travel", "Food & Drink", "Live Shows", "Concierge"] },
+  { heading: "By Service", links: ["Venues", "Partners", "Destinations", "Travel", "Food & Drink", "Live Shows", "Concierge"] },
   { heading: "By Region", links: ["Europe", "North America", "Asia", "Middle East", "Latin America", "Africa"] },
 ];
 
@@ -345,6 +345,9 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
               <button onClick={() => navigate('/travel')} className="text-sm font-medium text-neutral-500 hover:text-neutral-900 transition-colors cursor-pointer bg-transparent border-none">
                 Travel
               </button>
+              <button onClick={() => window.location.href = 'http://localhost:3001'} className="text-sm font-medium text-neutral-500 hover:text-neutral-900 transition-colors cursor-pointer bg-transparent border-none">
+                Destinations
+              </button>
               <button onClick={() => navigate('/vendors')} className="text-sm font-medium text-neutral-500 hover:text-neutral-900 transition-colors cursor-pointer bg-transparent border-none">
                 Partners
               </button>
@@ -377,14 +380,21 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
                                 "Weddings": "vendors", "Retreats": "services", "Birthdays": "party",
                                 "Reunions": "party", "Conferences": "services", "Bachelor / Bachelorette": "party",
                                 "Venues": "spaces", "Partners": "vendors", "Travel": "travel",
-                                "Food & Drink": "food-drink", "Live Shows": "live-shows", "Concierge": "concierge"
+                                "Destinations": "travel", "Food & Drink": "food-drink", "Live Shows": "live-shows", "Concierge": "concierge"
                               };
                               const targetCat = catMap[link] || "vendors";
-                              const targetPath = link === "Venues" ? "/spaces" : link === "Travel" ? "/travel" : link === "Food & Drink" ? "/food-drink" : link === "Live Shows" ? "/live-shows" : "/explore";
+                              const targetPath = link === "Venues" ? "/spaces" : link === "Travel" ? "/travel" : link === "Destinations" ? "http://localhost:3001" : link === "Food & Drink" ? "/food-drink" : link === "Live Shows" ? "/live-shows" : "/explore";
                               return (
                                 <li key={link}>
                                   <button
-                                    onClick={() => { setActiveCategory(targetCat as any); navigate(targetPath); }}
+                                    onClick={() => {
+                                      if (link === "Destinations") {
+                                        window.location.href = targetPath;
+                                      } else {
+                                        setActiveCategory(targetCat as any);
+                                        navigate(targetPath);
+                                      }
+                                    }}
                                     className="group inline-flex items-center gap-1.5 text-sm text-neutral-700 hover:text-[#F47245] transition-colors cursor-pointer bg-transparent border-none p-0 text-left"
                                   >
                                     {link}
