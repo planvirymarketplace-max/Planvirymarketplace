@@ -1,0 +1,349 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+/* Scoped wrapper for the Atlas hero: overrides the Planviry design-system tokens
+   so the hero renders identically to the eventsphere-global source design
+   (dark canvas, light ink, green accent, Instrument Serif/Sans fonts) without
+   affecting the rest of the project. */
+.atlas-hero-scope {
+  --color-canvas: oklch(0.11 0.012 60);
+  --color-ink: oklch(0.96 0.012 85);
+  --color-ink-muted: oklch(0.68 0.014 75);
+  --color-ink-faint: oklch(0.42 0.012 70);
+  --color-stone: oklch(0.17 0.014 60);
+  --color-accent: oklch(0.32 0.028 130);
+  --accent: oklch(0.32 0.028 130);
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif !important;
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif !important;
+  background-color: oklch(0.11 0.012 60) !important;
+  color: oklch(0.96 0.012 85) !important;
+}
+.atlas-hero-scope .bg-canvas { background-color: oklch(0.11 0.012 60) !important; }
+.atlas-hero-scope .bg-ink { background-color: oklch(0.96 0.012 85) !important; }
+.atlas-hero-scope .text-ink { color: oklch(0.96 0.012 85) !important; }
+.atlas-hero-scope .text-canvas { color: oklch(0.11 0.012 60) !important; }
+.atlas-hero-scope .text-ink-muted { color: oklch(0.68 0.014 75) !important; }
+.atlas-hero-scope .text-accent,
+.atlas-hero-scope .bg-accent,
+.atlas-hero-scope .fill-accent,
+.atlas-hero-scope .border-accent,
+.atlas-hero-scope .ring-accent { color: oklch(0.32 0.028 130); }
+.atlas-hero-scope .bg-accent { background-color: oklch(0.32 0.028 130) !important; }
+.atlas-hero-scope .fill-accent { fill: oklch(0.32 0.028 130) !important; }
+.atlas-hero-scope .border-accent { border-color: oklch(0.32 0.028 130) !important; }
+.atlas-hero-scope .text-accent { color: oklch(0.32 0.028 130) !important; }
+.atlas-hero-scope.atlas-dark { background-color: oklch(0.96 0.012 85) !important; color: oklch(0.11 0.012 60) !important; }
+.atlas-hero-scope.atlas-dark .bg-ink { background-color: oklch(0.96 0.012 85) !important; }
+.atlas-hero-scope.atlas-dark .text-canvas { color: oklch(0.11 0.012 60) !important; }
+.atlas-hero-scope.atlas-dark .text-canvas\/50,
+.atlas-hero-scope.atlas-dark .text-canvas\/60,
+.atlas-hero-scope.atlas-dark .text-canvas\/70 { color: oklch(0.11 0.012 60) !important; opacity: 0.6; }
+.atlas-hero-scope.atlas-dark .bg-canvas\/40,
+.atlas-hero-scope.atlas-dark .from-canvas,
+.atlas-hero-scope.atlas-dark .via-canvas\/40,
+.atlas-hero-scope.atlas-dark .to-canvas { background-color: oklch(0.96 0.012 85) !important; }
+
+/* Scoped wrapper for sections below the Atlas hero: overrides --font-serif so
+   all section headlines use Instrument Serif (matching the repo) without
+   affecting the rest of the project. */
+.repo-section-scope {
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif !important;
+}
+
+/* Marquee animation for Corpus section (imported from eventsphere-global) */
+@keyframes marquee {
+  from { transform: translateX(0) }
+  to { transform: translateX(-33.333%) }
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* =========================================================================
+   Planviry design system — fonts, brand colors, type-scale & icon helpers
+   ========================================================================= */
+@theme {
+  --font-sans: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Planviry brand palette */
+  --color-midnight-slate: #010000;
+  --color-champagne-gold: #f47245;
+  --color-brand-teal: #009689;
+  --color-brand-purple: #8559ec;
+  --color-brand-neutral: #dbe0e0;
+  --color-on-surface: #010000;
+  --color-outline: #8c8e96;
+  --color-outline-variant: #d9dade;
+  --color-surface-container-low: #f5f5f4;
+  --color-refined-offwhite: #fafaf9;
+
+  /* Material-style type-scale helpers used across the Planviry UI
+     (these map `font-*` utilities to the appropriate type family). */
+  --font-display-lg: "Playfair Display", Georgia, serif;
+  --font-display-md: "Playfair Display", Georgia, serif;
+  --font-display-sm: "Playfair Display", Georgia, serif;
+  --font-body-lg: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-body-md: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-body-sm: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-label-lg: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-label-md: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-label-sm: "Syne", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Material Symbols icon font base */
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* Custom scrollbar hiding */
+.hide-scrollbar::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar,
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar,
+.no-scrollbar,
+.scroll-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Planviry card / bar shadows */
+.plan-bar-shadow {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08);
+}
+.vendor-card-shadow:hover {
+  box-shadow: 0 20px 30px -10px rgba(15, 23, 42, 0.12);
+}
+
+/* Legal document content — preserves formatting from source .docx */
+.legal-doc-content p {
+  margin-bottom: 1rem;
+  text-indent: 0;
+}
+.legal-doc-content p:last-child {
+  margin-bottom: 0;
+}
+.legal-doc-content h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #010000;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.legal-doc-content h4 {
+  font-weight: 700;
+  font-size: 12px;
+  color: #010000;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.legal-doc-content .legal-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #010000;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.legal-doc-content strong {
+  font-weight: 700;
+  color: #010000;
+}
+.legal-doc-content hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 1.5rem 0;
+}
+.legal-doc-content ol,
+.legal-doc-content ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+.legal-doc-content ol {
+  list-style-type: decimal;
+}
+.legal-doc-content ol li,
+.legal-doc-content ul li {
+  margin-bottom: 0.5rem;
+}
+.legal-doc-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 11px;
+  /* FIXED layout: every column gets equal width regardless of content.
+     This makes every 2-col table look identical, every 3-col table identical, etc.
+     No more lopsided tables depending on which doc they came from. */
+  table-layout: fixed;
+}
+/* Neutralize any pandoc-injected <col>/<colgroup> width directives */
+.legal-doc-content colgroup,
+.legal-doc-content col {
+  display: none !important;
+}
+.legal-doc-content th,
+.legal-doc-content td {
+  border: 1px solid #e5e5e5;
+  padding: 4px 8px;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.45;
+  /* Override any pandoc width= or style=width */
+  width: auto !important;
+}
+.legal-doc-content th {
+  background: #f5f5f4;
+  font-weight: 700;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.legal-doc-content a {
+  color: #009689;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.legal-doc-content a:hover {
+  color: #006b62;
+}

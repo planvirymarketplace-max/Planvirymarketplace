@@ -1,0 +1,19 @@
+{
+  "name": "worker-ttl-sweep",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@planviry/db": "workspace:*",
+    "@planviry/types": "workspace:*",
+    "@planviry/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5"
+  }
+}

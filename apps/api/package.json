@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@planviry/db": "workspace:*",
+    "@planviry/types": "workspace:*",
+    "@planviry/shared": "workspace:*",
+    "@supabase/supabase-js": "^2.108.2",
+    "@supabase/ssr": "^0.12.0",
+    "zod": "^4.0.2",
+    "next": "^16.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "eslint": "^9",
+    "eslint-config-next": "^16.1.1"
+  }
+}

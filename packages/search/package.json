@@ -1,0 +1,18 @@
+{
+  "name": "@planviry/search",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@planviry/types": "workspace:*",
+    "@planviry/db": "workspace:*",
+    "algoliasearch": "^4.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

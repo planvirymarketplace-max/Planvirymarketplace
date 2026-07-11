@@ -1,0 +1,10 @@
+{
+  "name": "function-booking-ttl",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@planviry/types": "workspace:*",
+    "@planviry/shared": "workspace:*"
+  }
+}
